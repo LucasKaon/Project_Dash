@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+	<meta charset="utf-8">
+	<title>DashBoard</title>
+	<link rel="stylesheet" type="text/css" href="estilo/style.css">
+
+
+</head>
+<body>
+
+<header>
+	<div class="navegacao">
+		
+		<ul>
+			<li><a href="#">Inscrever-se</a>	<span> &#160&#160&#160&#160 |  </span></li>
+			<li><a href="#">Compartilhar</a> </li>
+		</ul>
+
+	</div>
+
+	<div class="barra_nav"></div>
+
+</header>
+
+<div id="formulario">
+
+	<form method="post" action="cadastrar.php">
+		
+		<h2>Cadastro</h2>
+
+		<label>Nome:</label><br>
+		<input id="input_custom" type="text" name="nome" maxlength="15" required="" autofocus=""><br><br>
+
+		<label>Sobrenome:</label><br>
+		<input id="input_custom" type="text" name="sobrenome" maxlength="25" required=""><br><br>
+
+		<label>Nick:</label><br>
+		<input id="input_custom" type="text" name="nick" maxlength="15" ><br><br>
+
+		<label>CPF:</label><br>
+		<input id="input_custom" type="text" name="cpf" maxlength="14" required="" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"><br><br>
+
+		<label>Email:</label><br>
+		<input id="input_custom" type="email" name="email" maxlength="50" ><br><br>
+
+		<input type="submit" name="enviar" value="Enviar" class="btn_custom" id="btn_enviar">
+		<input type="reset" name="limpar" value="Limpar" class="btn_custom">
+
+
+</div>
+
+</form>
+
+</body>
+
+</html>
