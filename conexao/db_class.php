@@ -20,13 +20,14 @@
 				echo "Erro ".mysqli_connect_errno()." : ".mysqli_connect_error();
 			}
 
-			/* if (isset($link)) {
-		     	echo "<br><br>Conexão realizada com sucesso!";
-			 						}*/
+			 // if (isset($link)) {
+		  //    	echo "<br><br>Conexão realizada com sucesso!";
+			 // 						}
 
 			 return $link;
 
 		}
+		
 
 	}
 
